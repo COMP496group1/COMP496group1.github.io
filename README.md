@@ -1,1 +1,1 @@
-# COMP496group1.github.io
+# verity-g1.github.io
