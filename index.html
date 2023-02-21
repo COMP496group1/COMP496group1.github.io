@@ -6,6 +6,7 @@
         <title>repl.it</title>
         <h1>Verity</h1>
         <link href="style.css" rel="stylesheet" type="text/css" />
+        <script src="script.js"></script>
     </head>
     <body>
         <form>
@@ -13,13 +14,13 @@
                 <span id="instructions">
                     <h3>Paste the contents of the email below. Then press submit.</h3>
                     <span id="button-span">
-                        <button type="button" class="submit-button">Submit</button>
+                        <button type="button" class="submit-button" onclick="ty()">Submit</button>
                     </span>
                 </span>
+                <div id="Results"></div>
                 <span id="text-span">
                     <input type ="text" class="email-input" placeholder="Contents of the email">
                 </span>
-              
             </div>
         
         </form>
